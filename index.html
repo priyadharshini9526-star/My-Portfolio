@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">  
+<head>  
+  <meta charset="utf-8" />  
+  <meta name="viewport" content="width=device-width,initial-scale=1" />  
+  <title>My Portfolio</title>  
+  <link rel="stylesheet" href="style.css">
+</head>  
+<body>  
+  <header class="site-header">  
+    <h1>My Portfolio</h1>  
+  </header>    
+  <main class="container">  
+    <!-- Hello section -->  
+    <section class="hello">  
+      <h2>Mela irrukanum</h2>  
+      <p class="one-line">Yenna pathi — Artificial Intelligence &amp; Machine Learning Student</p>  
+      <div class="view-work-box">  
+        <button id="viewWorkBtn" class="btn">View My Work</button>  
+      </div>  
+    </section>  
+
+    <!-- About Me -->  
+    <section class="about">  
+      <h2 class="center">About Me</h2>  
+      <div class="profile-photo-wrap">  
+        <img src="https://i.ibb.co/8FDFdhY/profile.jpg" alt="Profile Photo" id="profilePhoto">  
+      </div>  
+      <p class="ai-line center">  
+        I am an Artificial Intelligence and Machine Learning student.    
+        Passionate about building intelligent systems and solving real-world problems.  
+      </p>  
+    </section>  
+
+    <!-- Projects -->  
+    <section class="projects">  
+      <h2 class="center">Projects</h2>  
+      <div class="project-grid">  
+        <div class="project-box">  
+          <h3>Project 1</h3>  
+          <p>Online Voting System</p>  
+        </div>  
+        <div class="project-box">  
+          <h3>Project 2</h3>  
+          <p>My Portfolio</p>  
+        </div>  
+        <div class="project-box">  
+          <h3>Project 3</h3>  
+          <p>Stress Management Sensor</p>  
+        </div>  
+      </div>  
+    </section>  
+
+    <!-- Contact Me -->  
+    <section class="contact">  
+      <h2 class="center">Contact Me</h2>  
+      <form id="contactForm" class="contact-form" onsubmit="return handleSubmit(event)">  
+        <label>  
+          Name  
+          <input type="text" name="name" value="Priyadharshini G" required>  
+        </label>  
+
+        <label>  
+          Email  
+          <input type="email" name="email" value="24bsai151priyadharshinig@skacas.ac.in" required>  
+        </label>  
+
+        <label>  
+          Phone  
+          <input type="tel" name="phone" value="+91 80569 66030" required>  
+        </label>  
+
+        <button type="submit" class="btn submit">Send</button>  
+      </form>  
+    </section>  
+  </main>    
+
+  <footer class="site-footer">  
+    <p>Built with: HTML • CSS • JavaScript</p>  
+  </footer>  
+
+  <script src="script.js"></script>
+</body>  
+</html>
